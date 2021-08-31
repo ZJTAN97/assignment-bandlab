@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Page 1</h1>
+    <div>
+        <a href="../Page2/index.html">Click here to page 2</a>
+    </div>
+    <div class="btn-container">
+        <div class="sort-feature">
+            <button 
+              id="sort-title-btn"
+              class="btn-primary"
+              onclick="sortTitle()"
+            >Sort by Title</button>
+        </div>
+        <div class="sort-feature">
+            <button 
+              id="sort-id-btn" 
+              class="btn-primary"
+              onclick="sortId()"
+            >Sort by Id</button>
+        </div>
+    </div>
+    <div class="filter-feature">
+        User Id 
+        <select 
+          id="user-id-filter" 
+          class="user-id-filter"
+          onchange="filterUserId()"
+        ></select>
+    </div>
+    <div class="main-container" id="main-container">
+        <!--post-containers-->
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

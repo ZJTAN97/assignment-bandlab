@@ -1,0 +1,52 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+.btn-container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sort-feature {
+    margin-right: 20px;
+}
+.filter-feature {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.user-id-filter {
+    margin-left: 10px;
+    padding: 5px;
+}
+.btn-primary {
+    background-color: #008cba;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.post-container {
+    border: solid 1px #e3e3e3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fafafa;
+}
+.title-container {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5x;
+    color: #d6001c;
+}
+.body-container {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.user-id-container {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #008cba;
+}

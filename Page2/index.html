@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page 2</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Page 2</h1>
+        <a href="../Page1/index.html">Return to page 1</a>
+        <audio 
+          hidden
+          controls
+          ontimeupdate="updateTrackTime(this)"
+          id="audio-wrapper"
+       >
+           <source id="track" type="audio/ogg">
+       </audio>
+        <div class="main-player-container" id="main-player-container">
+            <div class="song-name-container" id="song-name-container"></div>
+            <div class="timing-container" id="timing-container"></div>
+            <div class="track-number" id="track-number"></div>
+        </div>
+        <div class="btn-container">
+            <button
+              id="play-pause-btn"
+              class="btn-primary play"
+              onclick="playPauseSong()"
+            >
+              Play
+            </button>
+            <button
+              id="reset-btn"
+              class="btn-primary reset"
+              onclick="resetSong()"
+            >
+              Stop / Reset
+            </button>
+            <button
+              id="next-btn"
+              class="btn-primary next"
+              onclick="nextSong()"
+            >
+              Next
+          </button>
+        </div>
+
+
+    </body>
+<script src="index.js"></script>
+</html>
