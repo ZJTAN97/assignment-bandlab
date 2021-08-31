@@ -4,12 +4,12 @@ const trackSource = [
 ];
 
 const audio = document.getElementById('audio-wrapper');
-track = document.getElementById('track');
+const track = document.getElementById('track');
 
-playerContainer = document.getElementById('main-player-container');
-songNameContainer = document.getElementById('song-name-container');
-trackNumberContainer = document.getElementById('track-number');
-timingContainer = document.getElementById('timing-container');
+const playerContainer = document.getElementById('main-player-container');
+const songNameContainer = document.getElementById('song-name-container');
+const trackNumberContainer = document.getElementById('track-number');
+const timingContainer = document.getElementById('timing-container');
 
 let trackNumber = 0;
 
